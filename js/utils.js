@@ -10,6 +10,7 @@ NexT.utils = {
 
   /**
    * Wrap images with fancybox.
+   * 用fancybox包装图像
    */
   wrapImageWithFancyBox: function() {
     document.querySelectorAll('.post-body :not(a) > img, .post-body > img').forEach(element => {
@@ -56,6 +57,7 @@ NexT.utils = {
 
   /**
    * One-click copy code support.
+   * 一键复制代码支持
    */
   registerCopyCode: function() {
     document.querySelectorAll('figure.highlight').forEach(element => {
@@ -162,6 +164,7 @@ NexT.utils = {
 
   /**
    * Tabs tag listener (without twitter bootstrap).
+   * 标签标签监听器（没有twitter引导）
    */
   registerTabsTag: function() {
     // Binding `nav-tabs` & `tab-content` by real time permalink changing.
@@ -314,6 +317,8 @@ NexT.utils = {
   /**
    * Init Sidebar & TOC inner dimensions on all pages and for all schemes.
    * Need for Sidebar/TOC inner scrolling if content taller then viewport.
+   * 所有页面和所有方案的Init侧边栏和TOC内部维度。
+   * 如果内容比viewport高，则需要侧边栏/TOC内部滚动。
    */
   initSidebarDimension: function() {
     var sidebarNav = document.querySelector('.sidebar-nav');
