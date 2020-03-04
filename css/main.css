@@ -1149,7 +1149,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #bedbee;
+  background: #59395e;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2401,9 +2401,26 @@ hr {
   display: inline-block;
 }
 /*��ҳ����������*/
+/*.header {
+    background-image: linear-gradient(90deg,#f79533 0,#f37055 15%,#ef4e7b 30%,#a166ab 44%,#5073b8 58%,#1098ad 72%,#07b39b 86%,#6dba82 100%)!important;
+}
+
 .header {
-  background-image: linear-gradient(90deg, #f79533 0, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%) !important;
+    position: inherit;
+    background-color: #fff;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #fff
+    z-index: 99999;
+    height: 60px;
 }
+
+
+
+//��վ����
 .site-meta .site-title {
-  font-size: 30px;
+    font-size: 30px;
 }
+
+*/
